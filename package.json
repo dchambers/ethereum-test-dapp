@@ -1,0 +1,21 @@
+{
+	"name": "ethereum-test-dapp",
+	"version": "0.0.0",
+	"description": "Ethereum Test DApp",
+	"main": "lib/web3.js",
+	"dependencies": {
+		"ethereum.js": "dchambers/ethereum.js#bcc1e91"
+	},
+	"devDependencies": {
+		"browserify": "latest"
+	},
+	"scripts": {
+		"build": "browserify lib/web3.js -o dist/web3.js"
+	},
+	"keywords": [
+		"Ethereum",
+		"DApp"
+	],
+	"author": "Dominic Chambers",
+	"license": "MIT"
+}
