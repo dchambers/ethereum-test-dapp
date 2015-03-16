@@ -15,7 +15,7 @@ You'll need a web server to serve the HTML files. I recommend
 ```bash
 npm install simplehttpserver -g
 ```
-and then use to serve the files within the current directory like this:
+and which you can then use to serve the files within the current directory like this:
 
 ```bash
 simplehttpserver
